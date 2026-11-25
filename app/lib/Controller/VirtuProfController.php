@@ -35,7 +35,7 @@ class VirtuProfController extends Controller {
     // coerced to '' by normalizeInterfaceLanguage(), so the user's choice is discarded
     // without any error — 'fr' was in the frontend list but not here, which is exactly
     // that failure.
-    private const ALLOWED_INTERFACE_LANGUAGES = ['', 'de', 'en', 'fr', 'ru', 'ar', 'uk'];
+    private const ALLOWED_INTERFACE_LANGUAGES = ['', 'de', 'en', 'fr', 'ru', 'ar', 'uk', 'zh'];
     private const ALLOWED_SKINS = [
         'nova',
         'prof_lern_classic',
